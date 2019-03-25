@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+}
+.col-md-12{
+    width: 100%;
+}
+.col-md-9{
+    width: 75%;
+}
+.col-md-6{
+    width: 50%;
+}
+.col-md-3{
+    width: 25%;
+}
+.col-md-2{
+    width: 10%;
+}
+body{
+    width: 1170px;
+    margin: 0 auto;
+    background:#3A2E20;
+}
+/* Menu+Logo css */
+#menu {
+    height: 696px;
+    clear: both;
+    display: block;
+    content: "";
+    background: url(../img/bcimg.png) no-repeat;
+}
+.menu{
+    height: 50px;
+
+}
+.logo{
+    color: white;
+    font-size: 20px;
+    float: left;
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+    font-family: 'ZCOOL XiaoWei', serif;
+    height: 50px;
+}
+.logo-text{
+    position: relative;
+    top: 25px;
+}
+.menulink{
+    text-decoration: none;
+    float: left;
+    height: 50px;
+}
+.menulink li {
+    float: left;
+    margin:0 auto;
+    position: relative;
+    left: 350px;
+    top: 30px;
+}
+.menulink a {
+    text-decoration: none;
+    display: block;
+    top: 10px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: 'ZCOOL XiaoWei', serif;
+    height: 20px;
+}
+.menulink li:hover::before{
+    content : "";
+    position: absolute;
+    left    : 25%;
+    bottom  : 0;
+    height  : 1px;
+    width   : 50%; 
+    border-bottom:2px solid rgb(12, 228, 12);
+} 
+/* End Menu and Logo */
+
+
+/* Text */
+.text{
+    position: relative;
+    top:150px;
+    font-family: 'Baloo Chettan', cursive;
+}
+.text-design{
+    font-size: 30px;
+    color: rgb(14, 209, 14);
+    text-align: center;
+    margin: 20px;
+}
+.name{
+    font-size: 50px;
+    color:white;
+    text-align: center;
+}
+.sites{
+    font-size: 50px;
+    color:white;
+    text-align: center;
+    margin: 20px;
+}
+/* buttons */
+.but{
+    position: relative;
+    top: 300px;
+    text-align: center;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.learn{
+    height: 60px;
+    width: 150px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 600;
+    color: green;
+    margin-right: 15px;
+}
+.contact{
+    height: 60px;
+    width: 150px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 600;
+    color: green;
+    margin-left: 15px;
+}
+.learn:hover{
+    background-color: orange;
+    color: white;
+    border-color: orange;
+}
+.contact:hover{
+    background-color: orange;
+    color: white;
+    border-color: orange;
+}
+/* end buttons */
+/* green line */
+.green{
+    background-color:green;
+    height: 5px;
+    margin: 0;
+}
+/* end line */
+/* section My services */
